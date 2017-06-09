@@ -47,8 +47,11 @@
   }
 }
 /*End of page cover*/
-.row {
-  background: linear-gradient(to bottom, #8b0000 0%, white 100%);
+.container-fluid {
+  background-color: #f2f2f2;
+}
+#headerRow {
+  background: linear-gradient(to bottom, #8b0000 0%, #f2f2f2 100%);
   background-size: auto;
   opacity: 0.8;
   padding: 7%;
@@ -64,4 +67,18 @@ header img {
   text-align: right;
   color: #0d0d0d;
   font-family: Chewy, cursive;
+}
+input {
+  margin-top: 10%;
+  text-align: left;
+}
+#instructions {
+  margin-top: 0%;
+  text-align: center;
+  background: linear-gradient(to bottom, #f2f2f2 0%, #36486b 100%);
+  padding-bottom: 12%;
+  font-family: Pangolin, cursive;
+}
+#instructions p {
+  font-size: 150%;
 }

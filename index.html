@@ -8,8 +8,7 @@
   <script src="js/jquery-3.2.1.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Chewy" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Chewy|Pangolin" rel="stylesheet">
   <title>Ping Pong</title>
 </head>
 
@@ -29,7 +28,7 @@
   </script>
   <!-- End of page cover -->
   <div class="container-fluid">
-    <div class="row">
+    <div class="row" id="headerRow">
       <header>
         <img src="img/whiteBat.png" alt="">
         <div class="col-md-6">
@@ -37,18 +36,32 @@
         </div>
       </header>
     </div>
-    <div class="input">
-      <form id="submit" class="form-group" action="index.html" method="post">
-        <label for="">Write a number to count to..</label>
-        <input id="userNumber" type="" placeholder="Number"></input>
-        <button type="submit" name="button">Submit</button>
-      </form>
-    </div>
-    <div class="results">
-      <ul id="list">
+    <!-- End of header -->
+    <div class="row">
+      <div class="col-md-3" id="instructions">
+        <h2>Instructions</h2>
+        <p>In this game, you get to play with numbers! The instructions are simple - type a number! When you do, the page will return any number divisible by 3 as "Ping", any number divisible by 5 as "Pong", and any number divisible by 15 as "Ping-pong".
+          Try to hear the sounds as you read..'ping', 'pong'... Anyway, get to it!</p>
 
-      </ul>
+      </div>
+      <div class="col-md-5">
+        <div class="input">
+          <form id="submit" class="form-group" action="index.html" method="post">
+            <h5>Write a number..!</h5>
+            <input id="userNumber" placeholder="Number"></input>
+            <button type="submit" name="button">Submit</button>
+          </form>
+        </div>
+      </div>
 
+      <div class="col-md-4">
+        <div class="results">
+          <ul id="list">
+
+          </ul>
+        </div>
+
+      </div>
     </div>
   </div>
 </body>
