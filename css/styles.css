@@ -1,3 +1,4 @@
+/*Page cover*/
 .overlay {
     height: 100%;
     width: 100%;
@@ -17,11 +18,16 @@
     text-align: center;
     margin-top: 30px;
     }
-
+.overlay-content h1 {
+  font-family: Chewy, cursive;
+  font-size: 100px;
+  color: burlywood;
+}
 .overlay a {
-    padding: 8px;
+    font-family: Cabin sketch;
+    padding: 20px;
     text-decoration: none;
-    font-size: 36px;
+    font-size: 50px;
     color: black;
     display: block;
     transition: 0.3s;
@@ -39,4 +45,23 @@
     top: 15px;
     right: 35px;
   }
+}
+/*End of page cover*/
+.row {
+  background: linear-gradient(to bottom, #8b0000 0%, white 100%);
+  background-size: auto;
+  opacity: 0.8;
+  padding: 7%;
+}
+header img {
+  float: left;
+  height: 5%;
+  width: 15%;
+  opacity: 0.8;
+}
+#headText {
+  font-size: 500%;
+  text-align: right;
+  color: #0d0d0d;
+  font-family: Chewy, cursive;
 }

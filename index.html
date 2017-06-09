@@ -8,27 +8,35 @@
   <script src="js/jquery-3.2.1.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Chewy" rel="stylesheet">
   <title>Ping Pong</title>
 </head>
 
 <body>
-  <div class="overlay" id="myNav">
+  <!-- Page Cover -->
+  <!-- <div class="overlay" id="myNav">
     <div class="overlay-content">
       <h1>Play Ping Pong!</h1>
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Play</a>
     </div>
-  </div>
+  </div> -->
 
   <script>
     function closeNav() {
       document.getElementById("myNav").style.height = "0%";
     }
   </script>
-
+  <!-- End of page cover -->
   <div class="container-fluid">
-    <header>
-      <h1>Ping Pong</h1>
-    </header>
+    <div class="row">
+      <header>
+        <img src="img/whiteBat.png" alt="">
+        <div class="col-md-6">
+          <h1 id="headText">Ping-Pong</h1>
+        </div>
+      </header>
+    </div>
     <div class="input">
       <form id="submit" class="form-group" action="index.html" method="post">
         <label for="">Write a number to count to..</label>
